@@ -1,0 +1,19 @@
+{
+  "name": "app.js",
+  "version": "1.0.1",
+  "description": "express file app",
+  "main": "app.js",
+  "scripts": {
+    "test": "app"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "john",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express3-handlebars": "^0.5.2"
+  }
+}
