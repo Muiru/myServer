@@ -1,4 +1,4 @@
-
+const fortune = require('./lib/fortune.js');
  const express = require('express');
  
  	const app = express();
@@ -19,17 +19,16 @@
  	app.get('/about',(req, res)=>{
  		//res.type('text/plain');
  		//res.send('About Meadowlark Travel');
-		var randomFortune = fortunes[Math.floor(Math.random()*fortunes.length)];
-		res.render('about',{fortune:randomFortune});
- 	});
+		//var randomFortune = fortunes[Math.floor(Math.random()*fortunes.length)];
+		res.render('about',{fortune:getFortune()});
 
-	var fortunes = [
+	/*var fortunes = [
 		"Conquer your feers or they will conquer you.",
 		"Rivers need springs.",
 		"Do not fear what you don't know.",
 		"You will have a pleasant surprise.",
 		"Whenever possible, keep it simple.",
-			];
+			];*/
  	
  	//custom 404 page
  	app.use((req,res)=>{
