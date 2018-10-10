@@ -1,19 +1,25 @@
 {
-  "name": "app.js",
-  "version": "1.0.1",
-  "description": "express file app",
+  "name": "kulanasi.js",
+  "version": "1.0.0",
+  "description": "kulanasi website for food delivery",
   "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "app"
   },
+  "repository": {
+    "type": "git",
+    "url": "kulanasi"
+  },
   "keywords": [
-    "app"
+    "kulanasi",
+    "food",
+    "food",
+    "delivery",
+    "online",
+    "eating"
   ],
-  "author": "john",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "express3-handlebars": "^0.5.2"
-  }
+  "author": "John Wanja Muiru",
+  "license": "ISC"
 }
