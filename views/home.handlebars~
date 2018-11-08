@@ -3,17 +3,17 @@
 	<div class="w3-row ">
 
 		<div class="w3-col m3 w3-card-4 w3-white">
-		<h2 class="w3-card-2 w3-hover-shadow w3-vivid-orange">About US</h2>
+		<h2 class="w3-card-2 w3-vivid-orange">About US</h2>
 			{{{about}}}	
 		</div>
 
 		<div class="w3-col m6 w3-center w3-card-4 w3-lime">
-		<h2 class="w3-card-2 w3-text-shadow w3-hover-shadow w3-border w3-round-xlarge">Dish Tours</h2>
+		<h2 class="w3-card-2 w3-text-shadow w3-border w3-round-xlarge">Dish Tours</h2>
 			{{{tours}}}
 		</div>
 			
 			<div  class="w3-col m3 w3-card-4 w3-white">
-				<h2 id="contact" class="w3-card-2 w3-hover-shadow">Contact Us </h2>
+				<h2 id="contact" class="w3-card-2">Contact Us </h2>
 					{{{contactUS}}}
 					</div>
 								

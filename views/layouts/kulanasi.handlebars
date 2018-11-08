@@ -2,36 +2,36 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+<meta name="description" content="We are focused in providing heathy food to our customer on free delivery all over Kenya online"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Kulanasi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="/css/w3.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<script type="text/javascript" src='jQuery.js'></script>
+	<script type="text/javascript" src='style.js'></script>
+	<title id='title'>Kulanasi</title>
 </head>
 <body>
 
-	<div class="w3-row">
-		<div class="w3-col m12">
-		<h1 class="w3-card-4 w3-purple"><b>Welcome to Kulanasi. com</br>We serve only what you want</br>Click to select and relax-we got you covered.</b></h1>
+<div id="header" class="w3-row-padding " >
+		<div class="w3-col w3-container w3-purple w3-card-12 w3-border w3-round-xlarge">
+		<p id="intro"><b> <a class="w3-card-2 w3-hover-shadow" href='/'>Welcome to Kulanasi. com</a></br>We only serve what you want</br><strong id="last">Click to select and relax-we got you covered.</strong></b></p>
 		</div>	
 	</div>
-<div class="w3-container">	
-	<div class="w3-row ">
-
-		<div class="w3-col m4">
-		<h2>About US</h2>
-			{{{about}}}	
-		</div>
-
-		<div class="w3-col m5">
-		<h2>Dish Tours</h2>
-			{{{body}}}
-		</div>
-			
-			<div class="w3-col m3">
-				<h2>Contact Us </h2>
-					{{{contactUS}}}
-					</div>
-								
-			</div>		
-</div>
-			<div class="w3-footer">&copy {{year}} Jomamu </div>
+	<div id="menu" class="w3-row-padding"> 
+		<div class="w3-container w3-bar w3-col">
+		<a href="/snacks" style="width:20%" class="w3-btn w3-bar-item w3-ripple w3-hover-khaki w3-lime" >SNACKS</a>
+		<a href="/drinks"  class="w3-btn w3-bar-item w3-ripple w3-hover-khaki w3-lime" style="width:20%">DRINKS</a>
+		<a href="/hFoods"  class="w3-btn w3-bar-item w3-ripple w3-hover-khaki w3-lime" style="width:20%">HEALTHY FOODS</a>
+		<a href="/desert"  class="w3-btn w3-ripple w3-bar-item w3-hover-khaki w3-lime" style="width:20%">DESERTS</a>
+		<a href="/mainDIshes"  class="w3-btn w3-ripple w3-bar-item w3-hover-khaki w3-lime" style="width:20%">MAIN DISHES</a>
+	</div> 
+	</div>
+		<div class="w3-row-padding ">
+			<div class="w3-col w3-container w3-lime m12 s12 l12">
+						{{{body}}}
+						</div>
+						</div>
+			<footer id="footer" class='w3-container'><p>&copy JOMAMU {{year}}</p> </footer>
 		</body>
 </html>

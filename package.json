@@ -1,25 +1,17 @@
 {
-  "name": "kulanasi.js",
+  "name": "app",
   "version": "1.0.0",
-  "description": "kulanasi website for food delivery",
+  "description": "kulanasi",
   "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-less": "^2.0.0"
+  },
   "scripts": {
     "test": "app"
   },
-  "repository": {
-    "type": "git",
-    "url": "kulanasi"
-  },
-  "keywords": [
-    "kulanasi",
-    "food",
-    "food",
-    "delivery",
-    "online",
-    "eating"
-  ],
-  "author": "John Wanja Muiru",
+  "author": "",
   "license": "ISC"
 }
